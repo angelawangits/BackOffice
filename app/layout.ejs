@@ -13,9 +13,9 @@
 
 <body>
   <div class="d-flex">
-    <div class="side-bar">
+    <div class="side-bar bg-color">
       <div class=""><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/logo-ANSWER.svg" alt="logo"></div>
-      <ul>
+      <ul class="list-unstyled fw-bold">
         <li>
           <span class="material-icons">poll</span>
           Dashboard
@@ -40,13 +40,16 @@
           <span class="material-icons">settings</span>
           Settings
         </li>
-        <li>
-          <span class="material-icons">search</span>
-          <span class="material-icons">notifications_active</span>
-          <span class="material-icons">visibility</span>
-          <span class="material-icons">edit</span>
-        </li>
       </ul>
+      <div class="d-flex">
+        <div>
+          <img class="round-img avatar" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/andychen.jpeg" alt="Andy Chen">
+        </div>
+        <div>
+          <h2 class="fw-bold fs-6 lh-base">Andy Chen</h2>
+          <p class="email-color lh-base fs-7">andy0401@mail.com</p>
+        </div>
+      </div>
     </div>
     <div>
       <%- contents %>

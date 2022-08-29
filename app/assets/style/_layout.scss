@@ -1,4 +1,21 @@
+.bg-color{
+    background-color: $gray-100;
+}
+
 .side-bar{
     width: 296px;
-    background-color: $background-color;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+}
+
+.email-color{
+    color: $gray-600;
+}
+    
+
+.round-img{
+    border-radius: 50%;
 }
