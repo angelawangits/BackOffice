@@ -4,6 +4,11 @@
 
 .side-bar{
     width: 296px;
+    height: 100vh;
+}
+
+.logo{
+    padding: $spacer * 2;
 }
 
 .avatar{
@@ -18,4 +23,36 @@
 
 .round-img{
     border-radius: 50%;
+}
+
+.links{
+    gap: $spacer * 1.5;
+    
+    .link{
+        padding-left: $spacer * 2;
+        
+        .link-color{       
+            color: $gray-900;
+        }
+
+        .link-element{
+            gap: $spacer;
+        }
+        
+        &:hover{
+            
+            border-left: 4px solid $success;
+            background: $gray-300;
+            
+            a{
+                color: $success;
+            }
+        }
+    }
+}
+
+.personal-info{
+    padding-left: $spacer * 2;
+    padding-bottom: $spacer * 2;
+    gap: $spacer;
 }
